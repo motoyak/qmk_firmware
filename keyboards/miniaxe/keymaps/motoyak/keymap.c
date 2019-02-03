@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------|           |------+------+------+------+------|
  * |  Tab |   R  |   E  |   I  | SRq  |           | Left | Down |  Up  | Right| Enter|
  * |------+------+------+------+------|           |------+------+------+------+------|
- * |  Del |   S  |   U  |   B  | PSc  |           | Home | PgUp | PgUp | End  | BkSp |
+ * |  Del |   S  |   U  |   B  | PSc  |           | Home | PgUp | PgUp | End  | R-ALT|
  * `-------------+------+------+------|           |------+------+------+------+------'
  *               |      | MHEN | BKSP |           | Spc  | KANA | Esc  |
  *               | L-Alt| LOWER|L-Ctrl|           | R-Sft| RAISE| R-Gui|
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT(
   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,         KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
   KC_TAB,  KC_R,    KC_E,    KC_I,    KC_SYSREQ,    KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_ENT,
-  KC_DEL,  KC_S,    KC_U,    KC_B,    KC_PSCR,      KC_HOME, KC_END,  KC_PGUP, KC_PGDN, KC_BSPC,
+  KC_DEL,  KC_S,    KC_U,    KC_B,    KC_PSCR,      KC_HOME, KC_END,  KC_PGUP, KC_PGDN, KC_RALT,
                     _______, _______, _______,      _______,  _______, _______
 ),
 
